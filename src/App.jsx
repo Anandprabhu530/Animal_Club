@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 
-function App() {
+function useAnimalhook() {
   const [animals, setanimals] = useState([]);
 
   useEffect(() => {
@@ -18,6 +18,12 @@ function App() {
     setanimals(data);
     localStorage.setItem("lastQuery", q);
   };
+  return { search, animals };
+}
+
+function App() {
+  const { search, animals } = useAnimalhook();
+
   return (
     <div>
       <h1>Animal Farm</h1>
