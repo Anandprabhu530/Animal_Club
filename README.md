@@ -1,6 +1,6 @@
 **Animal Club in React**
 
-This is a projects that is done by me to understand concepts of React such as UseState, UseEffect, Usereducer and Customhooks etc..
+This is a project that is done by me to understand concepts of React such as UseState, UseEffect, Usereducer and Customhooks etc..
 
 I have used Express.js for backend and Chance.js to generate Dummy data.
 
